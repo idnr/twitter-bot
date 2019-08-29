@@ -8,10 +8,10 @@ hashtags = ["#massage", "#mobilemassage", "#losangeles", "#ondemand", "#californ
 
 def twitter_api():
 
-    consumer_key = "5RoLRKFEvAPL0zI6t3uhCpkTr"
-    consumer_secret = "zrmSOrBSE5P9OKakrMRBSMLifCdWMRHucHy2Qt718mLnKVcnp1"
-    access_token = "1126290728785567745-7xWIlojISlVFAXiuEpDi1lLPWgCOBc"
-    access_token_secret = "x7pIKhayb1iBse1JvwEbvgggeTmhzrFeAug7tYE1Luwzq"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
     return Twython(consumer_key, consumer_secret, access_token, access_token_secret)
 
 def retweet():
